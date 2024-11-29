@@ -7,6 +7,10 @@ export const AppRotas: Routes = [
     pathMatch:'full'
   },
   {
+    path: 'player',
+    loadChildren: () => import('./player/player.module').then(n => n.PlayerModule)
+  },
+  {
     path: 'login',
     loadChildren: () => import('./login/login.module').then(m => m.LoginModule)
   }
