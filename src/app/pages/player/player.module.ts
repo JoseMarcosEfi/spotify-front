@@ -7,7 +7,7 @@ import { PlayerRotas } from "./player.routes";
 
 @NgModule({
   declarations: [
-
+      PlayerComponent
   ],
   imports: [
     CommonModule,
